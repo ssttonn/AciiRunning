@@ -3,6 +3,7 @@ plugins {
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.navigation.safe.args.gradle.plugin)
     alias(libs.plugins.kotlin.kapt)
+    alias(libs.plugins.com.google.dagger.hilt.android)
 }
 
 android {
@@ -84,7 +85,6 @@ dependencies {
     kapt(libs.dagger.compiler)
     implementation(libs.hilt.android)
     kapt(libs.hilt.compiler)
-    implementation(libs.hilt.android.lifecycle.viewmodel)
     kapt(libs.hilt.android.compiler)
 
     // Easy Permissions

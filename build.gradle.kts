@@ -4,4 +4,6 @@ plugins {
     alias(libs.plugins.kotlin.android) apply false
     alias(libs.plugins.navigation.safe.args.gradle.plugin) apply false
     alias(libs.plugins.kotlin.kapt) apply false
+    alias(libs.plugins.com.google.dagger.hilt.android) apply false
 }
+
